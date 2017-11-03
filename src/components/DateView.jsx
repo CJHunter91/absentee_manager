@@ -7,9 +7,10 @@ class DateView extends Component{
 
 
 monthRender(){
-	const endOfMonth = moment(this.props.date).add('months', 1).date(0);
+	const endOfMonth = moment(this.props.date).endOf('month');
+	const startOfMonth = moment(this.props.date).startOf('month')
 	var monthArray = []
-	for(let date = this.props.date.startOf('month'); date.isBefore(endOfMonth); date.add(1, 'days')){
+	for(let date = startOfMonth; date.isBefore(endOfMonth); date.add(1, 'days')){
 		monthArray.push(<h5>{date.format('D')}</h5>)
 	}
 	return monthArray;
