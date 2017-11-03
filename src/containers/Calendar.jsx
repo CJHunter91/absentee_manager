@@ -27,9 +27,11 @@ class Calendar extends Component{
 
 	render(){
 		return(
-			<section>
-				<p>{this.getMonthYearFormat(this.state.today)}</p>
-				<DateView/>
+			<section id="calendar">
+				<article className="month">
+				<h3>{this.getMonthYearFormat(this.state.today)}</h3>
+				<DateView date={this.state.today}/>
+				</article>
 			</section>
 			)
 	}
