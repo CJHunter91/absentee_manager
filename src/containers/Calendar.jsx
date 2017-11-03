@@ -22,12 +22,14 @@ class Calendar extends Component{
 	}
 
 	getAbsenteeDates(date){
-		return this.state.data.filter((absentee) => {
+		const filteredDates = this.state.data.filter((absentee) => {
 			if(date.month() === moment(absentee.date).month() &&
 				date.year() === moment(absentee.date).year()){
 				return absentee;
 			}
 		})
+
+		return this.sortAbsenteeDates(filteredDates);
 	}
 
 	sortAbsenteeDates(dates){
