@@ -31,7 +31,7 @@ class Calendar extends Component{
 	}
 
 	sortAbsenteeDates(dates){
-		dates.sort(function(a,b){
+		return dates.sort(function(a,b){
 			const dateA = moment(a.date)
 			const dateB = moment(b.date)
 			return dateA.diff(dateB);

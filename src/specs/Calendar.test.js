@@ -41,7 +41,17 @@ it('gets absentee objects for a given month', () =>{
 	expect(data.length).toBe(24)
 })
 
-// it('sorts the absentee dates into chronological order', ()=>{
-// 	const sorted = cal.instance().sortAbsenteeDates()
-// 	console.log(sorted)
-// })
+it('sorts the absentee dates into chronological order', ()=>{
+	const sampleData = [
+ {"date": "2016-12-30"},
+ {"date": "2016-12-28"},
+ {"date": "2016-12-14"},
+ {"date": "2016-12-29"}];
+ 	const expectedData = [ 
+ { "date": '2016-12-14' },
+ { "date": '2016-12-28' },
+ { "date": '2016-12-29' },
+ { "date": '2016-12-30' } ]
+ 	const sorted = cal.instance().sortAbsenteeDates(sampleData)
+	expect(sorted).toEqual(expectedData)
+})
