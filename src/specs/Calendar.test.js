@@ -20,3 +20,14 @@ it('gets todays date', ()=>{
 	const day = newDate.getDate();
 	expect(date).toBe(`${year}-${month}-${day}`);
 })
+
+it('gets the next day', () =>{
+	const cal = shallow(<Calendar />);
+	const date = cal.instance().getTodaysDate();
+	const nextDate = new Date(Date.parse(date));
+	nextDate.setDate(nextDate.getDate() + 1)
+	const month = nextDate.getMonth()+1;
+	const year = nextDate.getFullYear();
+	const day = nextDate.getDate();
+	expect(cal.instance().getNextDate(date)).toBe(`${year}-${month}-${day}`);
+})

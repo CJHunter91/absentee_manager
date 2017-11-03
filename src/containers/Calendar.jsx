@@ -9,6 +9,13 @@ class Calendar extends Component{
 		return date;
 	}
 
+	getNextDate(date){
+		const nextDate = new Date(Date.parse(date));
+		nextDate.setDate(nextDate.getDate() + 1);
+		const dateString = nextDate.getFullYear()+'-'+(nextDate.getMonth()+1)+'-'+nextDate.getDate();
+		return(dateString)
+	}
+
 	render(){
 		return(
 			<DateView/>
