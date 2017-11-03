@@ -1,22 +1,34 @@
 import React, { Component } from 'react';
 import DateView from '../components/DateView';
 import moment from 'moment';
+
 class Calendar extends Component{
 
+	constructor(props){
+		super(props);
+		this.state = {
+			today: this.getTodaysDate()
+		}
+	}
+
 	getTodaysDate(){
-		const date = moment().format('YYYY[-]MM[-]D')
+		const date = moment()
 		return date;
+	}
+
+	getThisMonth(){
+
 	}
 
 	getNextDate(date){
 		const dateString = moment(date).add(1, 'days');
-		return(dateString.format('YYYY[-]MM[-]D'))
+		return(dateString)
 	}
 
 	render(){
 		return(
 			<section>
-				<p>{this.getNextDate()}</p>
+				<p>{}</p>
 				<DateView/>
 			</section>
 			)

@@ -18,7 +18,7 @@ it('gets todays date', ()=>{
 	const month = newDate.getMonth()+1;
 	const year = newDate.getFullYear();
 	const day = newDate.getDate();
-	expect(date).toBe(`${year}-${month}-${day}`);
+	expect(date.format('YYYY[-]MM[-]D')).toBe(`${year}-${month}-${day}`);
 })
 
 it('gets the next day', () =>{
@@ -29,5 +29,5 @@ it('gets the next day', () =>{
 	const month = nextDate.getMonth()+1;
 	const year = nextDate.getFullYear();
 	const day = nextDate.getDate();
-	expect(cal.instance().getNextDate(date)).toBe(`${year}-${month}-${day}`);
+	expect(cal.instance().getNextDate(date).format('YYYY[-]MM[-]D')).toBe(`${year}-${month}-${day}`);
 })
