@@ -4,8 +4,13 @@ import Enzyme, { shallow, mount, render } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import moment from 'moment';
 import Calendar from '../containers/Calendar';
-
 Enzyme.configure({ adapter: new Adapter() });
+
+var cal;
+
+beforeEach(() =>{
+	cal = shallow(<Calendar />);
+})
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -13,7 +18,6 @@ it('renders without crashing', () => {
 });
 
 it('gets todays date', ()=>{
-	const cal = shallow(<Calendar />);
 	const date = cal.instance().getTodaysDate();
 	const newDate = new Date()
 	const month = newDate.getMonth()+1;
@@ -23,7 +27,6 @@ it('gets todays date', ()=>{
 })
 
 it('gets the next day', () =>{
-	const cal = shallow(<Calendar />);
 	const date = cal.instance().getTodaysDate();
 	const nextDate = new Date(Date.parse(date));
 	nextDate.setDate(nextDate.getDate() + 1)
@@ -34,8 +37,11 @@ it('gets the next day', () =>{
 })
 
 it('gets absentee objects for a given month', () =>{
-	const cal = shallow(<Calendar />);
-	const date = cal.instance().getMonthYearFormat(moment());
-	const data = cal.instance().getAbsenteeDates(date);
+	const data = cal.instance().getAbsenteeDates(moment('2017-11-03'));
 	expect(data.length).toBe(24)
 })
+
+// it('sorts the absentee dates into chronological order', ()=>{
+// 	const sorted = cal.instance().sortAbsenteeDates()
+// 	console.log(sorted)
+// })

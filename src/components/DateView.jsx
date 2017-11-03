@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moment from 'moment';
 
 
 
@@ -8,11 +7,12 @@ class DateView extends Component{
 
 absenteeRender(){
 	const dates = this.props.getAbsenteeDates(this.props.date)
-	console.log(dates)
 	if(dates.length > 0){
-		return dates.map((absentee) => {
+		return dates.map((absentee, index) => {
 			return(
+				<article key={index} id="absence">
 				<h3>{absentee.date}</h3>
+				</article>
 				)
 		})
 	}

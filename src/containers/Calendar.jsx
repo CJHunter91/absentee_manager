@@ -14,7 +14,7 @@ class Calendar extends Component{
 	}
 
 	componentDidMount(){
-		console.log("EXAMPLE SERVER UPDATE REQUEST - for all data");
+		// console.log("EXAMPLE SERVER UPDATE REQUEST - for all data");
 		this.setState({data: data});
 	}
 	componentWillMount(){
@@ -23,10 +23,18 @@ class Calendar extends Component{
 
 	getAbsenteeDates(date){
 		return this.state.data.filter((absentee) => {
-			if(moment(date).month() === moment(absentee.date).month() &&
-				moment(date).year() === moment(absentee.date).year()){
+			if(date.month() === moment(absentee.date).month() &&
+				date.year() === moment(absentee.date).year()){
 				return absentee;
 			}
+		})
+	}
+
+	sortAbsenteeDates(dates){
+		dates.sort(function(a,b){
+			const dateA = moment(a.date)
+			const dateB = moment(b.date)
+			return dateA.diff(dateB);
 		})
 	}
 
@@ -36,7 +44,7 @@ class Calendar extends Component{
 	}
 
 	getMonthYearFormat(date){
-		return date.format('MMM YYYY');
+		return moment(date).format('MMM YYYY');
 	}
 
 	getNextDate(date){
