@@ -16,8 +16,8 @@ class Calendar extends Component{
 		return date;
 	}
 
-	getThisMonth(){
-
+	getMonthYearFormat(date){
+		return date.format('MMM YYYY')
 	}
 
 	getNextDate(date){
@@ -28,7 +28,7 @@ class Calendar extends Component{
 	render(){
 		return(
 			<section>
-				<p>{}</p>
+				<p>{this.getMonthYearFormat(this.state.today)}</p>
 				<DateView/>
 			</section>
 			)
