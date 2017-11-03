@@ -19,7 +19,6 @@ monthRender(){
 render(){
 	return(
 		<article>
-		{this.monthRender()}
 		</article>
 		)
 	}

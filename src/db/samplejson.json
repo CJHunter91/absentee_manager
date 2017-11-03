@@ -1,0 +1,4748 @@
+﻿[
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 7,
+   "name": "Amelia Gade Corson",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 19,
+   "name": "Trent Grimsey",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Thu 2016-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Thu 2016-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Fri 2016-12-30",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Fri 2016-12-30",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Thu 2017-01-05",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Thu 2017-01-05",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Fri 2017-04-07",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-04-10",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-04-10",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-05-08",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-05-08",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-05-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-05-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-09-04",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2017-09-04",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Fri 2017-12-29",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Fri 2017-12-29",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2018-01-01",
+   "unit": "PM",
+   "value": "P"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2018-01-01",
+   "unit": "AM",
+   "value": "P"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2016-10-10",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2016-10-10",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Tue 2016-10-11",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Tue 2016-10-11",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Wed 2016-10-12",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Wed 2016-10-12",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2016-10-13",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2016-10-13",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2016-10-14",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2016-10-14",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2016-11-24",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2016-11-24",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2016-11-25",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2016-11-25",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2016-10-24",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 12,
+   "name": "Brojen Das",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2016-10-31",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Mon 2016-10-31",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Tue 2016-11-01",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Tue 2016-11-01",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Wed 2016-11-02",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Wed 2016-11-02",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Thu 2016-11-03",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Thu 2016-11-03",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Fri 2016-11-04",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 6,
+   "name": "Gertrude Ederle",
+   "date": "Fri 2016-11-04",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2016-10-31",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Mon 2016-10-31",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Tue 2016-11-01",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Tue 2016-11-01",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Wed 2016-11-02",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Wed 2016-11-02",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Thu 2016-11-03",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Thu 2016-11-03",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Fri 2016-11-04",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Fri 2016-11-04",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2016-10-31",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Mon 2016-10-31",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Tue 2016-11-01",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Tue 2016-11-01",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Wed 2016-11-02",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Wed 2016-11-02",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Thu 2016-11-03",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Thu 2016-11-03",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Fri 2016-11-04",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Fri 2016-11-04",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2016-10-31",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Mon 2016-10-31",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Tue 2016-11-01",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Tue 2016-11-01",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Wed 2016-11-02",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Wed 2016-11-02",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Thu 2016-11-03",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Thu 2016-11-03",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Fri 2016-11-04",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Fri 2016-11-04",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 2,
+   "name": "Thomas William Burgess",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 3,
+   "name": "Henry Sullivan",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 9,
+   "name": "Florence Chadwick",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 10,
+   "name": "Damian Piz  Beltran",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 18,
+   "name": "Philippe Croizon",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 20,
+   "name": "Philip Rush",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Wed 2017-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Wed 2017-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2016-10-31",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Mon 2016-10-31",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Tue 2016-11-01",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Tue 2016-11-01",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Wed 2016-11-02",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Wed 2016-11-02",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Thu 2016-11-03",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 23,
+   "name": "Cynthia Nicholas",
+   "date": "Thu 2016-11-03",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2016-10-31",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2016-10-31",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Tue 2016-11-01",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Tue 2016-11-01",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Wed 2016-11-02",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Wed 2016-11-02",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 5,
+   "name": "Charles Toth",
+   "date": "Mon 2017-02-06",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-02-06",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Tue 2017-02-07",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Tue 2017-02-07",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Wed 2017-02-08",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Wed 2017-02-08",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2017-02-09",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2017-02-09",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2017-02-10",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2017-02-10",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-02-13",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Mon 2017-02-13",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Tue 2017-02-14",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Tue 2017-02-14",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Wed 2017-02-15",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Wed 2017-02-15",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2017-02-16",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Thu 2017-02-16",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2017-02-17",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 8,
+   "name": "Edward H. Temme",
+   "date": "Fri 2017-02-17",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-04-17",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Mon 2017-04-17",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Tue 2017-04-18",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Tue 2017-04-18",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Wed 2017-04-19",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Wed 2017-04-19",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2017-04-20",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Thu 2017-04-20",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2017-04-21",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 1,
+   "name": "Matthew Webb",
+   "date": "Fri 2017-04-21",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 13,
+   "name": "Arati Saha",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 14,
+   "name": "Mihir Sen",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 15,
+   "name": "Antonio Abertondo",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 16,
+   "name": "Jon Erikson",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2016-12-26",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2016-12-26",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Tue 2016-12-27",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Tue 2016-12-27",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Wed 2016-12-28",
+   "unit": "AM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Wed 2016-12-28",
+   "unit": "PM",
+   "value": "V"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2016-11-07",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 17,
+   "name": "John Maclean",
+   "date": "Mon 2016-11-07",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2016-11-07",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 21,
+   "name": "Kevin Murphy",
+   "date": "Mon 2016-11-07",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2016-11-07",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 22,
+   "name": "Alison Streeter",
+   "date": "Mon 2016-11-07",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2016-11-07",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 4,
+   "name": "Enrique Tirabocchi",
+   "date": "Mon 2016-11-07",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-10-31",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-10-31",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-01",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-01",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-02",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-02",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-03",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-03",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-04",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-04",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-07",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-07",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-08",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-08",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-09",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-09",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-10",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-10",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-11",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-11",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-14",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-14",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-15",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-15",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-16",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-16",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-17",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-17",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-18",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-18",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-21",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-21",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-22",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-22",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-23",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-23",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-24",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-11-24",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-25",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-11-25",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-28",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Mon 2016-11-28",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-29",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Tue 2016-11-29",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-30",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Wed 2016-11-30",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-12-01",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Thu 2016-12-01",
+   "unit": "PM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-12-02",
+   "unit": "AM",
+   "value": "T"
+ },
+ {
+   "userid": 11,
+   "name": "Marilyn Bell",
+   "date": "Fri 2016-12-02",
+   "unit": "PM",
+   "value": "T"
+ }
+]

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Enzyme, { shallow, mount, render } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
+import moment from 'moment';
 import Calendar from '../containers/Calendar';
 
 Enzyme.configure({ adapter: new Adapter() });
@@ -30,4 +31,11 @@ it('gets the next day', () =>{
 	const year = nextDate.getFullYear();
 	const day = nextDate.getDate();
 	expect(cal.instance().getNextDate(date).format('YYYY[-]MM[-]D')).toBe(`${year}-${month}-${day}`);
+})
+
+it('gets absentee objects for a given month', () =>{
+	const cal = shallow(<Calendar />);
+	const date = cal.instance().getMonthYearFormat(moment());
+	const data = cal.instance().getAbsenteeDates(date);
+	expect(data.length).toBe(24)
 })
