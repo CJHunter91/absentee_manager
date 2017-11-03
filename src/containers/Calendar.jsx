@@ -10,34 +10,38 @@ class Calendar extends Component{
 		this.state = {
 			today: this.getTodaysDate()
 		}
+		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
 	}
 
 	componentDidMount(){
-		console.log("EXAMPLE SERVER UPDATE REQUEST - for all data")
-		this.setState({data: data})
+		console.log("EXAMPLE SERVER UPDATE REQUEST - for all data");
+		this.setState({data: data});
+	}
+	componentWillMount(){
+		this.setState({data:[]})
 	}
 
 	getAbsenteeDates(date){
 		return this.state.data.filter((absentee) => {
 			if(moment(date).month() === moment(absentee.date).month() &&
 				moment(date).year() === moment(absentee.date).year()){
-				return absentee
+				return absentee;
 			}
 		})
 	}
 
 	getTodaysDate(){
-		const date = moment()
+		const date = moment();
 		return date;
 	}
 
 	getMonthYearFormat(date){
-		return date.format('MMM YYYY')
+		return date.format('MMM YYYY');
 	}
 
 	getNextDate(date){
 		const dateString = moment(date).add(1, 'days');
-		return(dateString)
+		return(dateString);
 	}
 
 	render(){
@@ -45,7 +49,7 @@ class Calendar extends Component{
 			<section id="calendar">
 				<article className="month">
 				<h3>{this.getMonthYearFormat(this.state.today)}</h3>
-				<DateView date={this.state.today}/>
+				<DateView getAbsenteeDates={this.getAbsenteeDates} date={this.state.today}/>
 				</article>
 			</section>
 			)
