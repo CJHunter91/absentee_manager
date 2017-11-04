@@ -22,6 +22,8 @@ class Agenda extends Component{
 		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
 		this.updateAbscenseData = this.updateAbscenseData.bind(this);
 		this.closeModal = this.closeModal.bind(this);
+		this.updateYear = this.updateYear.bind(this);
+		this.updateMonth = this.updateMonth.bind(this);
 		this.submitAbscenceData = this.submitAbscenceData.bind(this);
 	}
 
@@ -68,21 +70,36 @@ class Agenda extends Component{
 		this.setState({data: data})
 	}
 
-	renderThreeMonths(){
-		var currentMonth = moment(this.state.currentDate);
+	updateYear(e){
+		var date = moment(this.state.currentDate);
+		var modifier = 1;
+		if(e.target.id === "prev"){modifier *= -1}
+		date.add(modifier,'Y')
+		this.setState({currentDate: date})
+	}
+
+	updateMonth(e){
+		var date = moment(this.state.currentDate);
+		var modifier = 3;
+		if(e.target.id === "prev"){modifier *= -1}
+		date.add(modifier,'M')
+		this.setState({currentDate: date})
+	}
+
+	renderThreeMonths(date=this.state.currentDate){
 		var monthArray = []
 		for (var i = 0; i < 3; i++) {
 			monthArray.push(
 				<article key={i} className="month">
-				<h3>{this.getMonthYearFormat(currentMonth)}</h3>
+				<h3>{this.getMonthYearFormat(date)}</h3>
 
 				<DateView  getAbsenteeDates={this.getAbsenteeDates} 
-				date={currentMonth}
+				date={date}
 				/>
 
 				</article>
 				)
-			currentMonth = moment(currentMonth).add(1,'M');
+			date = moment(date).add(1,'M');
 		}
 		return(monthArray) 
 	}
@@ -98,6 +115,9 @@ class Agenda extends Component{
 	render(){
 		return(
 			<section id="agenda">
+				<button id="prev" className="button" onClick={this.updateYear}>Prev Year</button>
+				<button id="next" className="button" onClick={this.updateYear}>Next Year</button>
+				<button id="prev" className="button" onClick={this.updateMonth}>Prev Months</button>
 				{this.renderThreeMonths()}
 				<UserInput isOpen={this.state.isModalOpen} 
 				closeModal={this.closeModal}
@@ -105,6 +125,7 @@ class Agenda extends Component{
 				updateAbscenseData={this.updateAbscenseData}
 				submitData={this.submitAbscenceData}
 				/>
+				<button id="next" className="button" onClick={this.updateMonth}>Next Months</button>
 			</section>
 			)
 	}
