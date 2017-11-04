@@ -3,18 +3,18 @@ import ReactDOM from 'react-dom';
 import Enzyme, { shallow, mount, render } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import moment from 'moment';
-import Calendar from '../containers/Calendar';
+import Agenda from '../containers/Agenda';
 Enzyme.configure({ adapter: new Adapter() });
 
 var cal;
 
 beforeEach(() =>{
-	cal = shallow(<Calendar />);
+	cal = shallow(<Agenda />);
 })
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Calendar />, div);
+  ReactDOM.render(<Agenda />, div);
 });
 
 it('gets todays date', ()=>{

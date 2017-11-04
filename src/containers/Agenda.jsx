@@ -12,15 +12,17 @@ class Agenda extends Component{
 			today: this.getTodaysDate(),
 			isModalOpen: true, 
 			absenceData: {
+				userid: 10,
+				name: "Joe Bloggs",
 				date:'',
 				unit:'ALL',
-				type:''
+				value:''
 			}
 		}
-
 		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
 		this.updateAbscenseData = this.updateAbscenseData.bind(this);
 		this.closeModal = this.closeModal.bind(this);
+		this.submitAbscenceData = this.submitAbscenceData.bind(this);
 	}
 
 	componentDidMount(){
@@ -67,9 +69,13 @@ class Agenda extends Component{
 		var data = Object.assign({}, this.state.absenceData);
 		data[e.target.name] = e.target.value;
 		this.setState({absenceData: data});
-		console.log(data)
-		console.log(e.target.value)
-		console.log(e.target.name)
+	}
+
+	submitAbscenceData(e){
+		e.preventDefault()
+		var data = this.state.data.slice(0);
+		data.push(this.state.absenceData);
+		this.setState({data: data})
 	}
 
 	renderThreeMonths(){
@@ -107,6 +113,7 @@ class Agenda extends Component{
 				closeModal={this.closeModal}
 				data={this.state.absenceData}
 				updateAbscenseData={this.updateAbscenseData}
+				submitData={this.submitAbscenceData}
 				/>
 			</section>
 			)
