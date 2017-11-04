@@ -15,7 +15,7 @@ absenteeRender(){
 					currentDay = absentee.date;
 					return(
 						<article key={index} className="absence">
-						<h3>{currentDay}</h3>
+						<h4>{currentDay}</h4>
 						<li>{absentee.name} {absentee.unit} {absentee.value}</li>
 						</article>
 						)

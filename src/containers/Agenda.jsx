@@ -54,13 +54,25 @@ class Agenda extends Component{
 		return(dateString);
 	}
 
+	renderThreeMonths(){
+		var currentMonth = moment(this.state.today);
+		var monthArray = []
+		for (var i = 0; i < 3; i++) {
+			monthArray.push(
+				<article key={i} className="month">
+				<h3>{this.getMonthYearFormat(currentMonth)}</h3>
+				<DateView getAbsenteeDates={this.getAbsenteeDates} date={currentMonth}/>
+				</article>
+				)
+			currentMonth = moment(currentMonth).add(1,'M');
+		}
+		return(monthArray) 
+	}
+
 	render(){
 		return(
 			<section id="agenda">
-				<article className="month">
-				<h3>{this.getMonthYearFormat(this.state.today)}</h3>
-				<DateView getAbsenteeDates={this.getAbsenteeDates} date={this.state.today}/>
-				</article>
+				{this.renderThreeMonths()}
 			</section>
 			)
 	}
