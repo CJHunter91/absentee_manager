@@ -49,14 +49,14 @@ render(){
     <span id="close" onClick={this.props.closeModal} className="close">&times;</span>
     <h4>Absence Request</h4>
       <form>
-        <input type="date"/>
-        <select>
+        <input name="date" type="date" value={this.props.data.date} onChange={this.props.updateAbscenseData} required/>
+        <select name="unit" value={this.props.data.unit} onChange={this.props.updateAbscenseData}>
           <option value="All">All Day</option>
           <option value="AM">AM</option>
           <option value="PM">PM</option>
         </select>
-        <select>
-          <option value="" disabled selected>Select absence type</option>
+        <select name="type" value={this.props.data.type} onChange={this.props.updateAbscenseData} required>
+          <option value="" disabled>Select absence type</option>
           <option value="V">Vacation</option>
           <option value="P">Public Holiday</option>
           <option value="T">Training</option>

@@ -10,16 +10,21 @@ class Agenda extends Component{
 		super(props);
 		this.state = {
 			today: this.getTodaysDate(),
-			isModalOpen: true
+			isModalOpen: true, 
+			absenceData: {
+				date:'',
+				unit:'ALL',
+				type:''
+			}
 		}
 
 		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
+		this.updateAbscenseData = this.updateAbscenseData.bind(this);
 		this.closeModal = this.closeModal.bind(this);
 	}
 
 	componentDidMount(){
-		// console.log("EXAMPLE SERVER UPDATE REQUEST - for all data");
-		this.setState({data: data});
+		this.setState({data: data}, ()=>{console.log("EXAMPLE SERVER UPDATE REQUEST - for all data");});
 	}
 	componentWillMount(){
 		this.setState({data:[]})
@@ -58,6 +63,15 @@ class Agenda extends Component{
 		return(dateString);
 	}
 
+	updateAbscenseData(e){
+		var data = Object.assign({}, this.state.absenceData);
+		data[e.target.name] = e.target.value;
+		this.setState({absenceData: data});
+		console.log(data)
+		console.log(e.target.value)
+		console.log(e.target.name)
+	}
+
 	renderThreeMonths(){
 		var currentMonth = moment(this.state.today);
 		var monthArray = []
@@ -65,7 +79,11 @@ class Agenda extends Component{
 			monthArray.push(
 				<article key={i} className="month">
 				<h3>{this.getMonthYearFormat(currentMonth)}</h3>
-				<DateView getAbsenteeDates={this.getAbsenteeDates} date={currentMonth}/>
+
+				<DateView  getAbsenteeDates={this.getAbsenteeDates} 
+				date={currentMonth}
+				/>
+
 				</article>
 				)
 			currentMonth = moment(currentMonth).add(1,'M');
@@ -85,7 +103,11 @@ class Agenda extends Component{
 		return(
 			<section id="agenda">
 				{this.renderThreeMonths()}
-				<UserInput isOpen={this.state.isModalOpen} closeModal={this.closeModal}/>
+				<UserInput isOpen={this.state.isModalOpen} 
+				closeModal={this.closeModal}
+				data={this.state.absenceData}
+				updateAbscenseData={this.updateAbscenseData}
+				/>
 			</section>
 			)
 	}
