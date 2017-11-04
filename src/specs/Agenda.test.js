@@ -17,25 +17,6 @@ it('renders without crashing', () => {
   ReactDOM.render(<Agenda />, div);
 });
 
-it('gets todays date', ()=>{
-	const date = cal.instance().getTodaysDate();
-	const newDate = new Date()
-	const month = newDate.getMonth()+1;
-	const year = newDate.getFullYear();
-	const day = newDate.getDate();
-	expect(date.format('YYYY[-]MM[-]D')).toBe(`${year}-${month}-${day}`);
-})
-
-it('gets the next day', () =>{
-	const date = cal.instance().getTodaysDate();
-	const nextDate = new Date(Date.parse(date));
-	nextDate.setDate(nextDate.getDate() + 1)
-	const month = nextDate.getMonth()+1;
-	const year = nextDate.getFullYear();
-	const day = nextDate.getDate();
-	expect(cal.instance().getNextDate(date).format('YYYY[-]MM[-]D')).toBe(`${year}-${month}-${day}`);
-})
-
 it('gets absentee objects for a given month', () =>{
 	const data = cal.instance().getAbsenteeDates(moment('2017-11-03'));
 	expect(data.length).toBe(24)

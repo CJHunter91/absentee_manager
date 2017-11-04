@@ -9,7 +9,7 @@ class Agenda extends Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			today: this.getTodaysDate(),
+			currentDate: moment(),
 			isModalOpen: true, 
 			absenceData: {
 				userid: 10,
@@ -26,7 +26,7 @@ class Agenda extends Component{
 	}
 
 	componentDidMount(){
-		this.setState({data: data}, ()=>{console.log("EXAMPLE SERVER UPDATE REQUEST - for all data");});
+		this.setState({data: data});
 	}
 	componentWillMount(){
 		this.setState({data:[]})
@@ -51,18 +51,8 @@ class Agenda extends Component{
 		})
 	}
 
-	getTodaysDate(){
-		const date = moment();
-		return date;
-	}
-
 	getMonthYearFormat(date){
 		return moment(date).format('MMM YYYY');
-	}
-
-	getNextDate(date){
-		const dateString = moment(date).add(1, 'days');
-		return(dateString);
 	}
 
 	updateAbscenseData(e){
@@ -79,7 +69,7 @@ class Agenda extends Component{
 	}
 
 	renderThreeMonths(){
-		var currentMonth = moment(this.state.today);
+		var currentMonth = moment(this.state.currentDate);
 		var monthArray = []
 		for (var i = 0; i < 3; i++) {
 			monthArray.push(
