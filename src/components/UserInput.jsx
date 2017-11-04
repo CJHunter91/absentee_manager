@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import moment from 'moment';
 
 class UserInput extends Component{
 
@@ -41,7 +42,6 @@ render(){
      backdropStyle[key] = this.props.backdropStyle[key]
    }
  }
-
  return(
 
   <article >
@@ -49,7 +49,12 @@ render(){
     <span id="close" onClick={this.props.closeModal} className="close">&times;</span>
     <h4>Absence Request</h4>
       <form onSubmit={this.props.submitData}>
-        <input name="date" type="date" value={this.props.data.date} onChange={this.props.updateAbscenseData} required/>
+        <input name="date" type="date" 
+          value={this.props.data.date} 
+          onChange={this.props.updateAbscenseData}
+          min={moment().format('YYYY-MM-DD')}
+          required
+          />
         <select name="unit" value={this.props.data.unit} onChange={this.props.updateAbscenseData}>
           <option value="All">All Day</option>
           <option value="AM">AM</option>
