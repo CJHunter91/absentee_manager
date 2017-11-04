@@ -8,7 +8,7 @@ render(){
      return null
 
  let modalStyle = {
-   position: 'absolute',
+   position: 'fixed',
    top: '50%',
    left: '50%',
    height: '80%',
@@ -27,7 +27,7 @@ render(){
  }
 
  let backdropStyle = {
-   position: 'absolute',
+   position: 'fixed',
    width: '100%',
    height: '100%',
    top: '0px',
@@ -47,10 +47,21 @@ render(){
   <article >
     <section id="user-input" className="modal-content" style={modalStyle}>
     <span id="close" onClick={this.props.closeModal} className="close">&times;</span>
-    <h4>New Absence</h4>
-      <ul>
-      <li>Input</li>
-      </ul>
+    <h4>Absence Request</h4>
+      <form>
+        <input type="date"/>
+        <select>
+          <option value="All">All Day</option>
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+        <select>
+          <option value="" disabled selected>Select absence type</option>
+          <option value="V">Vacation</option>
+          <option value="P">Public Holiday</option>
+          <option value="T">Training</option>
+        </select>
+      </form>
     </section>
     <div style={backdropStyle} onClick={e => this.close(e)}/>
   </article>
