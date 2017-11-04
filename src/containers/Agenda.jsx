@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import DateView from '../components/DateView';
+import DateView from '../components/MonthView';
 import moment from 'moment';
 import data from '../db/samplejson.json'
 
-class Calendar extends Component{
+class Agenda extends Component{
 
 	constructor(props){
 		super(props);
@@ -56,7 +56,7 @@ class Calendar extends Component{
 
 	render(){
 		return(
-			<section id="calendar">
+			<section id="agenda">
 				<article className="month">
 				<h3>{this.getMonthYearFormat(this.state.today)}</h3>
 				<DateView getAbsenteeDates={this.getAbsenteeDates} date={this.state.today}/>
@@ -66,4 +66,4 @@ class Calendar extends Component{
 	}
 }
 
-export default Calendar;
+export default Agenda;

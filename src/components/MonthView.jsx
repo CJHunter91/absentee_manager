@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 
-class DateView extends Component{
+class MonthView extends Component{
 
 
 absenteeRender(){
@@ -40,4 +40,4 @@ render(){
 	}
 }
 
-export default DateView;
+export default MonthView;
