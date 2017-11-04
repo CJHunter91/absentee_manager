@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DateView from '../components/MonthView';
+import UserInput from '../components/UserInput';
 import moment from 'moment';
 import data from '../db/samplejson.json'
 
@@ -8,9 +9,12 @@ class Agenda extends Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			today: this.getTodaysDate()
+			today: this.getTodaysDate(),
+			isModalOpen: true
 		}
+
 		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
+		this.closeModal = this.closeModal.bind(this);
 	}
 
 	componentDidMount(){
@@ -69,10 +73,19 @@ class Agenda extends Component{
 		return(monthArray) 
 	}
 
+	openModal() {
+      this.setState({ isModalOpen: true })
+    }
+
+    closeModal() {
+      this.setState({ isModalOpen: false })
+    }
+
 	render(){
 		return(
 			<section id="agenda">
 				{this.renderThreeMonths()}
+				<UserInput isOpen={this.state.isModalOpen} closeModal={this.closeModal}/>
 			</section>
 			)
 	}
