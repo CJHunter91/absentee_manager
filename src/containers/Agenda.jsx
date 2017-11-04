@@ -73,7 +73,7 @@ class Agenda extends Component{
 	updateYear(e){
 		var date = moment(this.state.currentDate);
 		var modifier = 1;
-		if(e.target.id === "prev"){modifier *= -1}
+		if(e.target.classList[0]  === "prev"){modifier *= -1}
 		date.add(modifier,'Y')
 		this.setState({currentDate: date})
 	}
@@ -81,7 +81,7 @@ class Agenda extends Component{
 	updateMonth(e){
 		var date = moment(this.state.currentDate);
 		var modifier = 3;
-		if(e.target.id === "prev"){modifier *= -1}
+		if(e.target.classList[0] === "prev"){modifier *= -1}
 		date.add(modifier,'M')
 		this.setState({currentDate: date})
 	}
@@ -115,9 +115,9 @@ class Agenda extends Component{
 	render(){
 		return(
 			<section id="agenda">
-				<button id="prev" className="button" onClick={this.updateYear}>Prev Year</button>
-				<button id="next" className="button" onClick={this.updateYear}>Next Year</button>
-				<button id="prev" className="button" onClick={this.updateMonth}>Prev Months</button>
+				<button id="prev-year" className="prev button" onClick={this.updateYear}>Prev Year</button>
+				<button id="next-year" className="next button" onClick={this.updateYear}>Next Year</button>
+				<button id="prev-year" className="prev button" onClick={this.updateMonth}>Prev Months</button>
 				{this.renderThreeMonths()}
 				<UserInput isOpen={this.state.isModalOpen} 
 				closeModal={this.closeModal}
@@ -125,7 +125,7 @@ class Agenda extends Component{
 				updateAbscenseData={this.updateAbscenseData}
 				submitData={this.submitAbscenceData}
 				/>
-				<button id="next" className="button" onClick={this.updateMonth}>Next Months</button>
+				<button id="next-year" className="next button" onClick={this.updateMonth}>Next Months</button>
 			</section>
 			)
 	}
