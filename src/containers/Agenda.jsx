@@ -80,19 +80,20 @@ class Agenda extends Component{
 		this.setState({data: data})
 	}
 
-	findAbsence(data, absenceData = this.state.absenceData){
-		var userAbsence = data.find((absence)=>{
+	findAbsenceIndex(data, absenceData = this.state.absenceData){
+		var absenceIndex = false;
+		var userAbsence = data.find((absence, index)=>{
 			if(
 				absence.userid === absenceData.userid &&
 				absence.date === absenceData.date &&
 				absence.unit ===absenceData.unit
 				){
+				absenceIndex = index;
 				return true
 			}
 			return false
 		})
-		if (userAbsence === undefined){ userAbsence = false};
-		return userAbsence
+		return absenceIndex
 	}
 
 

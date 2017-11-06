@@ -37,7 +37,7 @@ it('sorts the absentee dates into chronological order', ()=>{
 	expect(sorted).toEqual(expectedData)
 })
 
-it('can find a specific absence',()=>{
+it('can find a specific absence index',()=>{
 	const absenceData = {
    		"userid": 1,
    		"name": "Matthew Webb",
@@ -45,11 +45,11 @@ it('can find a specific absence',()=>{
    		"unit": "PM",
    		"value": "P"
 			}
-	const absence = cal.instance().findAbsence(data, absenceData);
-	expect(absence).toEqual(absenceData)
+	const absence = cal.instance().findAbsenceIndex(data, absenceData);
+	expect(absence).toEqual(3)
 })
 
-it('if no specific absence returns false',()=>{
+it('if no specific absence index returns false',()=>{
 	const absenceData = {
    		"userid": 1,
    		"name": "Matthew Webb",
@@ -57,7 +57,7 @@ it('if no specific absence returns false',()=>{
    		"unit": "PM",
    		"value": "P"
 			}
-	const absence = cal.instance().findAbsence(data, absenceData);
+	const absence = cal.instance().findAbsenceIndex(data, absenceData);
 	expect(absence).toEqual(false)
 })
 
