@@ -11,10 +11,11 @@ absenteeRender(){
 	if(dates.length > 0){
 		return dates.map((absentee, index) => {
 
-			if(currentDay !== absentee.date && this.props.userID === absentee.userid){
+			if(currentDay !== absentee.date){
 					currentDay = absentee.date;
 					return(
 						<article onClick={()=>{this.props.absenceClick({
+							userid:absentee.userid,
 							date:currentDay,
 							unit:absentee.unit,
 							value:absentee.value
@@ -22,22 +23,21 @@ absenteeRender(){
 						key={index} 
 						className="absence">
 						<h4>{currentDay}</h4>
-						<li>{absentee.name} {absentee.unit} {absentee.value}</li>
+						<li>{absentee.userid} {absentee.name} {absentee.unit} {absentee.value}</li>
 						</article>
 						)
 				}
-			else if(currentDay !== absentee.date){
-					return(
-						<article key={index} className="absence">
-						<h4>{currentDay}</h4>
-						<li>{absentee.name} {absentee.unit} {absentee.value}</li>
-						</article>
-						)
-			}
 			else{
 				return(
-						<article key={index} className="absence">
-						<li>{absentee.name} {absentee.unit} {absentee.value}</li>
+						<article onClick={()=>{this.props.absenceClick({
+							userid:absentee.userid,
+							date:currentDay,
+							unit:absentee.unit,
+							value:absentee.value
+						})}}
+						key={index} 
+						className="absence">
+						<li>{absentee.userid} {absentee.name} {absentee.unit} {absentee.value}</li>
 						</article>
 						)
 			}

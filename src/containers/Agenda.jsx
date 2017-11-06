@@ -67,8 +67,10 @@ class Agenda extends Component{
 	}
 
 	clickAbsenceData(params){
-		var data = Object.assign({}, this.state.absenceData, params);
-		this.setState({absenceData: data}, this.openModal)
+		console.log(params)
+		if(params.userid === this.state.absenceData.userid)
+			{var data = Object.assign({}, this.state.absenceData, params);
+				this.setState({absenceData: data}, this.openModal)}
 	}
 
 	submitAbscenceData(e){
