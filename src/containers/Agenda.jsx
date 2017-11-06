@@ -3,6 +3,7 @@ import DateView from '../components/MonthView';
 import UserInput from '../components/UserInput';
 import moment from 'moment';
 import data from '../db/samplejson.json'
+import pHolidays from '../db/holidaydata.json'
 
 class Agenda extends Component{
 
@@ -12,8 +13,8 @@ class Agenda extends Component{
 			currentDate: moment(),
 			isModalOpen: true, 
 			absenceData: {
-				userid: 10,
-				name: "Joe Bloggs",
+				userid: 1,
+				name: "Matthew Webb",
 				date:'',
 				unit:'ALL',
 				value:''
@@ -28,10 +29,10 @@ class Agenda extends Component{
 	}
 
 	componentDidMount(){
-		this.setState({data: data});
+		this.setState({data: data, pHolidays: pHolidays});
 	}
 	componentWillMount(){
-		this.setState({data:[]})
+		this.setState({data:[], pHolidays:[]})
 	}
 
 	getAbsenteeDates(date){

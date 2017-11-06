@@ -1,0 +1,36 @@
+[{
+	"title": "New Year’s Day",
+	"date": "01-01"
+},
+{
+	"title": "2nd January",
+	"date": "01-02"
+},
+{
+	"title": "Good Friday",
+	"date": "03-29"
+},
+{
+	"title": "Early May bank holiday",
+	"date": "05-06"
+},
+{
+	"title": "Spring bank holiday",
+	"date": "05-27"
+},
+{
+	"title": "Summer bank holiday",
+	"date": "08-05"
+},
+{
+	"title": "St Andrew’s Day",
+	"date": "12-02"
+},
+{
+	"title": "Christmas Day",
+	"date": "12-25"
+},
+{
+	"title": "Boxing Day",
+	"date": "12-26"
+}]
