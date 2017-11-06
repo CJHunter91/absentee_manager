@@ -38,14 +38,28 @@ class Agenda extends Component{
 	}
 
 	getAbsenteeDates(date){
+		//accesses db
 		const filteredDates = this.state.data.filter((absentee) => {
 			if(date.month() === moment(absentee.date).month() &&
-				date.year() === moment(absentee.date).year()){
+				date.year() === moment(absentee.date).year() &&
+				absentee.value !== "P"){
 				return absentee;
+		}
+	})
+		var filterPublicHolidays = this.state.pHolidays.filter((holiday) =>{
+			var holidayDate = date.year() + "-" + holiday.date;
+			if(date.month() === moment(holidayDate).month()){
+				return holiday
 			}
 		})
-
-		return this.sortAbsenteeDates(filteredDates);
+		var newArray = [];
+		filterPublicHolidays.forEach((holiday)=>{
+			var holidayCopy = Object.assign({},holiday);
+			holidayCopy.date = date.year() + "-" + holiday.date;
+			newArray.push(holidayCopy)
+		})
+		
+		return this.sortTitles(this.sortAbsenteeDates(filteredDates).concat(newArray))
 	}
 
 	sortAbsenteeDates(dates){
@@ -60,6 +74,17 @@ class Agenda extends Component{
 		return moment(date).format('MMM YYYY');
 	}
 
+	sortTitles(array){
+		var newArray = [];
+		for (var i = array.length - 1; i >= 0; i--) {
+			if(array[i].title){
+				newArray.push(array[i])
+				array.splice(i,1)
+			}
+		}
+		return newArray.concat(array)
+	}
+
 	updateAbscenseData(e){
 		var data = Object.assign({}, this.state.absenceData);
 		data[e.target.name] = e.target.value;
@@ -67,10 +92,9 @@ class Agenda extends Component{
 	}
 
 	clickAbsenceData(params){
-		console.log(params)
 		if(params.userid === this.state.absenceData.userid)
 			{var data = Object.assign({}, this.state.absenceData, params);
-				this.setState({absenceData: data}, this.openModal)}
+		this.setState({absenceData: data}, this.openModal)}
 	}
 
 	submitAbsenceData(e){
@@ -79,6 +103,10 @@ class Agenda extends Component{
 		data.splice(this.findAbsenceIndex(data),1);
 		data.push(this.state.absenceData);
 		this.setState({data: data})
+	}
+
+	removeAbsenceData(data){
+		data.splice(this.findAbsenceIndex(data),1);
 	}
 
 	findAbsenceIndex(data, absenceData = this.state.absenceData){
@@ -90,10 +118,10 @@ class Agenda extends Component{
 				absence.unit ===absenceData.unit
 				){
 				absenceIndex = index;
-				return true
-			}
-			return false
-		})
+			return true
+		}
+		return false
+	})
 		return absenceIndex
 	}
 
@@ -103,7 +131,7 @@ class Agenda extends Component{
 		var date = moment(this.state.currentDate);
 		var modifier = 1;
 		if(e.target.classList[0]  === "prev"){modifier *= -1}
-		date.add(modifier,'Y')
+			date.add(modifier,'Y')
 		this.setState({currentDate: date})
 	}
 
@@ -111,7 +139,7 @@ class Agenda extends Component{
 		var date = moment(this.state.currentDate);
 		var modifier = 3;
 		if(e.target.classList[0] === "prev"){modifier *= -1}
-		date.add(modifier,'M')
+			date.add(modifier,'M')
 		this.setState({currentDate: date})
 	}
 
@@ -135,28 +163,28 @@ class Agenda extends Component{
 	}
 
 	openModal() {
-      this.setState({ isModalOpen: true })
-    }
+		this.setState({ isModalOpen: true })
+	}
 
-    closeModal() {
-      this.setState({ isModalOpen: false })
-    }
+	closeModal() {
+		this.setState({ isModalOpen: false })
+	}
 
 	render(){
 		return(
 			<section id="agenda">
-				<button id="prev-year" className="prev button" onClick={this.updateYear}>Prev Year</button>
-				<button id="next-year" className="next button" onClick={this.updateYear}>Next Year</button>
-				<button id="prev-year" className="prev button" onClick={this.updateMonth}>Prev Months</button>
-				{this.renderThreeMonths()}
-				<UserInput isOpen={this.state.isModalOpen} 
-				closeModal={this.closeModal}
-				data={this.state.absenceData}
-				updateAbscenseData={this.updateAbscenseData}
-				submitData={this.submitAbsenceData}
-				/>
-				<button id="next-year" className="next button" onClick={this.updateMonth}>Next Months</button>
-				<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
+			<button id="prev-year" className="prev button" onClick={this.updateYear}>Prev Year</button>
+			<button id="next-year" className="next button" onClick={this.updateYear}>Next Year</button>
+			<button id="prev-year" className="prev button" onClick={this.updateMonth}>Prev Months</button>
+			{this.renderThreeMonths()}
+			<UserInput isOpen={this.state.isModalOpen} 
+			closeModal={this.closeModal}
+			data={this.state.absenceData}
+			updateAbscenseData={this.updateAbscenseData}
+			submitData={this.submitAbsenceData}
+			/>
+			<button id="next-year" className="next button" onClick={this.updateMonth}>Next Months</button>
+			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
 			</section>
 			)
 	}
