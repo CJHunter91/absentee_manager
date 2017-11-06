@@ -76,6 +76,7 @@ class Agenda extends Component{
 	submitAbsenceData(e){
 		e.preventDefault()
 		var data = this.state.data.slice(0);
+		data.splice(this.findAbsenceIndex(data),1);
 		data.push(this.state.absenceData);
 		this.setState({data: data})
 	}
