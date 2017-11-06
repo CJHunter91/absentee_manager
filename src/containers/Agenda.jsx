@@ -21,7 +21,7 @@ class Agenda extends Component{
 			},
 			clash:""
 		};
-		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
+		this.holidaysAndAbsentees = this.holidaysAndAbsentees.bind(this);
 		this.updateAbscenseData = this.updateAbscenseData.bind(this);
 		this.closeModal = this.closeModal.bind(this);
 		this.openModal = this.openModal.bind(this);
@@ -38,15 +38,7 @@ class Agenda extends Component{
 		this.setState({data:[], pHolidays:[]})
 	}
 
-	getAbsenteeDates(date){
-		//accesses db
-		const filteredDates = this.state.data.filter((absentee) => {
-			if(date.month() === moment(absentee.date).month() &&
-				date.year() === moment(absentee.date).year() &&
-				absentee.value !== "P"){
-				return absentee;
-		}
-	})
+	getPublicHolidays(date){
 		var filterPublicHolidays = this.state.pHolidays.filter((holiday) =>{
 			var holidayDate = date.year() + "-" + holiday.date;
 			if(date.month() === moment(holidayDate).month()){
@@ -59,8 +51,25 @@ class Agenda extends Component{
 			holidayCopy.date = date.year() + "-" + holiday.date;
 			newArray.push(holidayCopy)
 		})
+		return newArray;
+	}
+
+	getAbsenteeDates(date){
+		//accesses db
+		const filteredDates = this.state.data.filter((absentee) => {
+			if(date.month() === moment(absentee.date).month() &&
+				date.year() === moment(absentee.date).year() &&
+				absentee.value !== "P"){
+				return absentee;
+		}
+	})
 		
-		return this.sortTitles(this.sortAbsenteeDates(filteredDates).concat(newArray))
+		
+		return this.sortAbsenteeDates(filteredDates)
+	}
+
+	holidaysAndAbsentees(date){
+		return this.getAbsenteeDates(date).concat(this.getPublicHolidays(date))
 	}
 
 	sortAbsenteeDates(dates){
@@ -179,7 +188,7 @@ class Agenda extends Component{
 				<article key={i} className="month">
 				<h3>{this.getMonthYearFormat(date)}</h3>
 
-				<DateView absenceClick={this.clickAbsenceData} getAbsenteeDates={this.getAbsenteeDates} 
+				<DateView absenceClick={this.clickAbsenceData} getAbsenteeDates={this.holidaysAndAbsentees} 
 				date={date}
 				userID={this.state.absenceData.userid}
 				/>
