@@ -81,7 +81,7 @@ class Agenda extends Component{
 	}
 
 	findAbsence(data, absenceData = this.state.absenceData){
-		const userAbsence = data.find((absence)=>{
+		var userAbsence = data.find((absence)=>{
 			if(
 				absence.userid === absenceData.userid &&
 				absence.date === absenceData.date &&
@@ -91,6 +91,7 @@ class Agenda extends Component{
 			}
 			return false
 		})
+		if (userAbsence === undefined){ userAbsence = false};
 		return userAbsence
 	}
 

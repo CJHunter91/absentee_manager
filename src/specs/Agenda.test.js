@@ -49,6 +49,18 @@ it('can find a specific absence',()=>{
 	expect(absence).toEqual(absenceData)
 })
 
+it('if no specific absence returns false',()=>{
+	const absenceData = {
+   		"userid": 1,
+   		"name": "Matthew Webb",
+   		"date": "2016-01-30",
+   		"unit": "PM",
+   		"value": "P"
+			}
+	const absence = cal.instance().findAbsence(data, absenceData);
+	expect(absence).toEqual(false)
+})
+
 const data = [{
    "userid": 1,
    "name": "Matthew Webb",
