@@ -60,7 +60,7 @@ render(){
           <option value="AM">AM</option>
           <option value="PM">PM</option>
         </select>
-        <select name="value" value={this.props.data.type} onChange={this.props.updateAbscenseData} required>
+        <select name="value" value={this.props.data.value} onChange={this.props.updateAbscenseData} required>
           <option value="" disabled>Select absence type</option>
           <option value="V">Vacation</option>
           <option value="P">Public Holiday</option>

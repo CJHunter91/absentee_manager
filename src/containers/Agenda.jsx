@@ -11,7 +11,7 @@ class Agenda extends Component{
 		super(props);
 		this.state = {
 			currentDate: moment(),
-			isModalOpen: true, 
+			isModalOpen: false, 
 			absenceData: {
 				userid: 1,
 				name: "Matthew Webb",
@@ -23,9 +23,11 @@ class Agenda extends Component{
 		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
 		this.updateAbscenseData = this.updateAbscenseData.bind(this);
 		this.closeModal = this.closeModal.bind(this);
+		this.openModal = this.openModal.bind(this);
 		this.updateYear = this.updateYear.bind(this);
 		this.updateMonth = this.updateMonth.bind(this);
 		this.submitAbscenceData = this.submitAbscenceData.bind(this);
+		this.clickAbsenceData = this.clickAbsenceData.bind(this);
 	}
 
 	componentDidMount(){
@@ -64,6 +66,11 @@ class Agenda extends Component{
 		this.setState({absenceData: data});
 	}
 
+	clickAbsenceData(params){
+		var data = Object.assign({}, this.state.absenceData, params);
+		this.setState({absenceData: data}, this.openModal)
+	}
+
 	submitAbscenceData(e){
 		e.preventDefault()
 		var data = this.state.data.slice(0);
@@ -94,8 +101,9 @@ class Agenda extends Component{
 				<article key={i} className="month">
 				<h3>{this.getMonthYearFormat(date)}</h3>
 
-				<DateView  getAbsenteeDates={this.getAbsenteeDates} 
+				<DateView absenceClick={this.clickAbsenceData} getAbsenteeDates={this.getAbsenteeDates} 
 				date={date}
+				userID={this.state.absenceData.userid}
 				/>
 
 				</article>
@@ -127,6 +135,7 @@ class Agenda extends Component{
 				submitData={this.submitAbscenceData}
 				/>
 				<button id="next-year" className="next button" onClick={this.updateMonth}>Next Months</button>
+				<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
 			</section>
 			)
 	}
