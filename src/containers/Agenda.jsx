@@ -18,7 +18,8 @@ class Agenda extends Component{
 				date:'',
 				unit:'',
 				value:''
-			}
+			},
+			clash:""
 		};
 		this.getAbsenteeDates = this.getAbsenteeDates.bind(this);
 		this.updateAbscenseData = this.updateAbscenseData.bind(this);
@@ -70,6 +71,32 @@ class Agenda extends Component{
 		})
 	}
 
+	updateClash(message = ""){
+		this.setState({clash: message})
+	}
+
+	findOverlap(dateData, absenceData){
+		var userAbsence = dateData.find((absence, index)=>{
+			if(
+				absence.userid !== absenceData.userid &&
+				absence.date === absenceData.date &&
+				absence.unit === absenceData.unit
+				){
+				
+			return true
+		}
+
+		return false
+	})	
+		
+		if(userAbsence){
+			this.updateClash("Warning this date overlaps with another absence") 
+		}
+		else{
+			this.updateClash()
+		}
+	}
+
 	getMonthYearFormat(date){
 		return moment(date).format('MMM YYYY');
 	}
@@ -86,9 +113,11 @@ class Agenda extends Component{
 	}
 
 	updateAbscenseData(e){
-		var data = Object.assign({}, this.state.absenceData);
-		data[e.target.name] = e.target.value;
-		this.setState({absenceData: data});
+		var absenceData = Object.assign({}, this.state.absenceData);
+		absenceData[e.target.name] = e.target.value;
+		this.setState({absenceData: absenceData}, ()=>{
+			this.findOverlap(this.state.data, absenceData)
+		});
 	}
 
 	clickAbsenceData(params){
@@ -182,6 +211,7 @@ class Agenda extends Component{
 			data={this.state.absenceData}
 			updateAbscenseData={this.updateAbscenseData}
 			submitData={this.submitAbsenceData}
+			clash={this.state.clash}
 			/>
 			<button id="next-year" className="next button" onClick={this.updateMonth}>Next Months</button>
 			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>

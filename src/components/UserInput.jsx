@@ -56,6 +56,7 @@ render(){
           required
           />
         <select name="unit" value={this.props.data.unit} onChange={this.props.updateAbscenseData}>
+          <option value="" disabled>Select Unit</option>
           <option value="AM">AM</option>
           <option value="PM">PM</option>
         </select>
@@ -67,6 +68,9 @@ render(){
         </select>
         <input type="submit" value="Add Absence"/>
       </form>
+      <div className="alert">
+        {this.props.clash}
+      </div>
     </section>
     <div style={backdropStyle} onClick={e => this.close(e)}/>
   </article>
