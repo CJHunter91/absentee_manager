@@ -16,7 +16,7 @@ class Agenda extends Component{
 				userid: 1,
 				name: "Matthew Webb",
 				date:'',
-				unit:'',
+				unit:'AM',
 				value:''
 			},
 			clash:""
@@ -84,16 +84,15 @@ class Agenda extends Component{
 		this.setState({clash: message})
 	}
 
-	findOverlap(dateData, absenceData){
-		const monthAbsences = this.getAbsenteeDates(moment(absenceData.date))
-		var userAbsence = monthAbsences.find((absence, index)=>{
+	findOverlap(absenceData, absences){
+		var userAbsence = absences.find((absence, index)=>{
 			if(
 				absence.userid !== absenceData.userid &&
 				absence.date === absenceData.date &&
 				absence.unit === absenceData.unit
 				){
 				
-			return true
+				return true
 		}
 
 		return false
@@ -103,40 +102,71 @@ class Agenda extends Component{
 			this.updateClash("Warning this date overlaps with another absence") 
 		}
 		else{
-			this.updateClash()
+			this.updateClash("Warning this date is adjacent with another absence")
 		}
 	}
 
-	getMonthYearFormat(date){
-		return moment(date).format('MMM YYYY');
-	}
+	getCloseDates(absenceData, number=5){
+		const currentDate = moment(absenceData.date)
+		const prevDays = moment(currentDate).add(number * -1,'days')
+		const nextDays = moment(currentDate).add(number,'days')
 
-	sortTitles(array){
-		var newArray = [];
-		for (var i = array.length - 1; i >= 0; i--) {
-			if(array[i].title){
-				newArray.push(array[i])
-				array.splice(i,1)
-			}
+		var userAbsences = this.state.data.filter((absence, index)=>{
+			if(absence.userid !== absenceData.userid &&
+				moment(absence.date).isBetween(prevDays, nextDays)
+					){
+					return true
+				}
+				return false
+			})
+
+	if(userAbsences.length > 0 && number !==2){
+		this.getCloseDates(absenceData, 2)
+	}
+	else if(number === 2 && userAbsences.length > 0 ){
+		this.findOverlap(absenceData, userAbsences)
+		
+	}
+	else if(number === 2){
+		this.updateClash("Warning this date is within 4 days of another absence")
+	}
+	else(
+		this.updateClash("")
+		)
+
+}
+
+getMonthYearFormat(date){
+	return moment(date).format('MMM YYYY');
+}
+
+sortTitles(array){
+	var newArray = [];
+	for (var i = array.length - 1; i >= 0; i--) {
+		if(array[i].title){
+			newArray.push(array[i])
+			array.splice(i,1)
 		}
-		return newArray.concat(array)
 	}
+	return newArray.concat(array)
+}
 
-	updateAbscenseData(e){
-		var absenceData = Object.assign({}, this.state.absenceData);
-		absenceData[e.target.name] = e.target.value;
-		this.setState({absenceData: absenceData}, ()=>{
-			this.findOverlap(this.state.data, absenceData)
-		});
-	}
+updateAbscenseData(e){
+	var absenceData = Object.assign({}, this.state.absenceData);
+	absenceData[e.target.name] = e.target.value;
+	this.setState({absenceData: absenceData}, ()=>{
+		this.getCloseDates(absenceData)
+	});
+}
 
-	clickAbsenceData(params){
-		if(params.userid === this.state.absenceData.userid)
-			{var data = Object.assign({}, this.state.absenceData, params);
-		this.setState({absenceData: data}, this.openModal)}
-	}
+clickAbsenceData(params){
+	if(params.userid === this.state.absenceData.userid)
+		{var data = Object.assign({}, this.state.absenceData, params);
+	this.setState({absenceData: data}, this.openModal)}
+}
 
-	submitAbsenceData(e){
+submitAbsenceData(e){
+		//db access
 		e.preventDefault()
 		var data = this.state.data.slice(0);
 		data.splice(this.findAbsenceIndex(data),1);

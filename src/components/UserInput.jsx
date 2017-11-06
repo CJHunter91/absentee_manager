@@ -56,7 +56,6 @@ render(){
           required
           />
         <select name="unit" value={this.props.data.unit} onChange={this.props.updateAbscenseData}>
-          <option value="" disabled>Select Unit</option>
           <option value="AM">AM</option>
           <option value="PM">PM</option>
         </select>
