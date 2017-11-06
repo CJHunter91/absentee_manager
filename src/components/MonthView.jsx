@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import moment from 'moment';
 
 
 
@@ -21,7 +22,7 @@ class MonthView extends Component{
 						})}}
 						key={index} 
 						className="absence">
-						<h4>{currentDay}</h4>
+						<h4>{moment(currentDay).format('ddd Do MMM')}</h4>
 						<li>{absentee.title + " Public Holiday"}</li>
 						</article>
 						)
@@ -37,7 +38,7 @@ class MonthView extends Component{
 						})}}
 						key={index} 
 						className="absence">
-						<h4>{currentDay}</h4>
+						<h4>{moment(currentDay).format('ddd Do MMM')}</h4>
 						<li>{absentee.userid} {absentee.name} {absentee.unit} {absentee.value}</li>
 						</article>
 						)
