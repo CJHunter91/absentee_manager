@@ -85,7 +85,8 @@ class Agenda extends Component{
 	}
 
 	findOverlap(dateData, absenceData){
-		var userAbsence = dateData.find((absence, index)=>{
+		const monthAbsences = this.getAbsenteeDates(moment(absenceData.date))
+		var userAbsence = monthAbsences.find((absence, index)=>{
 			if(
 				absence.userid !== absenceData.userid &&
 				absence.date === absenceData.date &&
