@@ -14,7 +14,6 @@ class MonthView extends Component{
 			dates.forEach((absentee, index)=>{
 				if(currentDay !== absentee.date && dates.length === index+1){
 					currentDay = absentee.date;
-					console.log(absentee);
 					dayArray.push(tempArray);
 					tempArray = [];
 					tempArray.push(absentee);
@@ -22,19 +21,16 @@ class MonthView extends Component{
 				}
 				else if(currentDay !== absentee.date){
 					currentDay = absentee.date;
-					console.log(absentee)
 					dayArray.push(tempArray)
 					tempArray = [];
 					tempArray.push(absentee);
 				}
 
 				else if(dates.length === index+1){
-					console.log(absentee)
 					tempArray.push(absentee);
 					dayArray.push(tempArray)
 				}
 				else{
-					console.log(absentee)
 					tempArray.push(absentee);
 				}
 			})
@@ -44,7 +40,6 @@ class MonthView extends Component{
 
 	absenteeRender(){
 		const dayArrays = this.splitDays()
-		console.log(dayArrays)
 		if(dayArrays !== undefined){
 			return dayArrays.map((day, index)=>{
 				return(
@@ -54,15 +49,25 @@ class MonthView extends Component{
 					{day.map((absence, index)=>{
 						if(absence.title){
 							return(
-								<li key={index}>
+								<li key={index} onClick={()=>{this.props.absenceClick({
+							userid:1,
+							date:absence.date,
+							unit:absence.unit,
+							value:"P"
+						})}}>
 								{absence.title}
 								</li>
 								)
 						}
 						else{
 							return(
-								<li key={index}>
-								{absence.name}
+								<li key={index} onClick={()=>{this.props.absenceClick({
+							userid:absence.userid,
+							date:absence.date,
+							unit:absence.unit,
+							value:absence.value
+						})}}>
+								{absence.name} {absence.unit} {absence.value}
 								</li>
 								)}
 						})}

@@ -137,7 +137,7 @@ class Agenda extends Component{
 }
 
 getMonthYearFormat(date){
-	return moment(date).format('MMM YYYY');
+	return moment(date).format('MMMM YYYY');
 }
 
 sortTitles(array){

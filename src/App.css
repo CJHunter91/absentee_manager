@@ -1,6 +1,7 @@
 #absentee-render{
 	display: flex;
 	white-space: nowrap;
+	overflow-y: scroll;
 }
 
 
