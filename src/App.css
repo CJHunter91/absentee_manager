@@ -1,0 +1,19 @@
+#absentee-render{
+	display: flex;
+	white-space: nowrap;
+}
+
+
+ul, li{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.day{
+	margin: 8px;
+}
+
+.month-days{
+	display: flex;
+}

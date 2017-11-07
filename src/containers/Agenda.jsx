@@ -216,15 +216,15 @@ submitAbsenceData(e){
 		var monthArray = []
 		for (var i = 0; i < 3; i++) {
 			monthArray.push(
-				<article key={i} className="month">
+				<section key={i} className="month">
 				<h3>{this.getMonthYearFormat(date)}</h3>
-
+				<article className="month-days">
 				<DateView absenceClick={this.clickAbsenceData} getAbsenteeDates={this.holidaysAndAbsentees} 
 				date={date}
 				userID={this.state.absenceData.userid}
 				/>
-
 				</article>
+				</section>
 				)
 			date = moment(date).add(1,'M');
 		}
