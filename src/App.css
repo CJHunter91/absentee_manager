@@ -1,5 +1,10 @@
 body{
 	background-color: #DDD5CA;
+	margin-top: 40px;
+}
+
+h4{
+	color: #8D4C98;
 }
 
 #absentee-render{
@@ -7,6 +12,7 @@ body{
 	white-space: nowrap;
 	overflow-y: scroll;
 	width: 100%;
+	margin-bottom: 40px
 }
 
 
@@ -26,7 +32,7 @@ ul, li{
 .month h3{
 	text-align: center;
 	padding: 10px;
-	margin: 0px;
+	margin: 0px 0px 0px 0px;
 	color:#8D4C98;
 	background-color: #1E252D;
 
@@ -47,8 +53,62 @@ ul, li{
 }
 
 #new-absence{
-	position: fixed;
+	margin: 5px 5px 0px 5px;
+	background-color: #1E252D;
+	color:#8D4C98;
+	border: none;
 	border-radius: 5px;
-	bottom: 40px;
-	right: 30px
+	font-weight: bold;
+}
+
+#fixed-absence{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: #1E252D;
+}
+
+#fixed-nav{
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: #1E252D;
+}
+
+#fixed-nav button{
+	margin: 5px 5px 0px 5px;
+	background-color: #1E252D;
+	color:#8D4C98;
+	border: none;
+	font-weight: bold;
+
+}
+
+.button{
+	margin: 5px;
+	background-color: #1E252D;
+	color:#8D4C98;
+	border: none;
+	font-weight: bold;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 40%;
+	margin: 0 auto;
+}
+#user-input{
+	align-content: center;
+}
+
+input, select{
+	margin-top: 5px; 
 }

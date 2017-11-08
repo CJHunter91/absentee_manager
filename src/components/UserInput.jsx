@@ -16,7 +16,7 @@ render(){
    width: '80%',
    transform: 'translate(-50%, -50%)',
    zIndex: '9999',
-   background: '#9ad3de',
+   background: '#1E252D',
    borderRadius: '10px',
    border: 'solid white 2px'
  }
@@ -47,7 +47,7 @@ render(){
   <article >
     <section id="user-input" className="modal-content" style={modalStyle}>
     <span id="close" onClick={this.props.closeModal} className="close">&times;</span>
-    <h4>Absence Request</h4>
+      <h4>Absence Request</h4>
       <form onSubmit={this.props.submitData}>
         <input name="date" type="date" 
           value={this.props.data.date} 
@@ -65,7 +65,7 @@ render(){
           <option value="P">Public Holiday</option>
           <option value="T">Training</option>
         </select>
-        <input type="submit" value="Add Absence"/>
+        <input className="button" type="submit" value="Add Absence"/>
       </form>
       <div className="alert">
         {this.props.clash}

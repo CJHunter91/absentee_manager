@@ -172,6 +172,7 @@ submitAbsenceData(e){
 		data.splice(this.findAbsenceIndex(data),1);
 		data.push(this.state.absenceData);
 		this.setState({data: data})
+		this.closeModal();
 	}
 
 	removeAbsenceData(data){
@@ -243,10 +244,12 @@ submitAbsenceData(e){
 	render(){
 		return(
 			<section id="agenda">
+			<nav id="fixed-nav">
 			<button id="prev-month" className="prev button" onClick={this.updateMonth}>Prev Months</button>
 			<button id="prev-year" className="prev button" onClick={this.updateYear}>Prev Year</button>
 			<button id="next-year" className="next button" onClick={this.updateYear}>Next Year</button>
 			<button id="next-month" className="next button" onClick={this.updateMonth}>Next Months</button>
+			</nav>
 			{this.renderThreeMonths()}
 			<UserInput isOpen={this.state.isModalOpen} 
 			closeModal={this.closeModal}
@@ -255,7 +258,9 @@ submitAbsenceData(e){
 			submitData={this.submitAbsenceData}
 			clash={this.state.clash}
 			/>
+			<nav id="fixed-absence">
 			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
+			</nav>
 			</section>
 			)
 	}
