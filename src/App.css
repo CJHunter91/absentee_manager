@@ -148,6 +148,11 @@ table td{
 	font-size: 20px;
 	margin: 5px 5px;
 }
+
+#new-absence{
+	background-color: #8D4C98 !important;
+	color: #1E252D;
+}
 .button:hover{
 	color: white;
 }

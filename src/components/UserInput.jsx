@@ -31,7 +31,6 @@ render(){
         <select name="value" value={this.props.data.value} onChange={this.props.updateAbscenseData} required>
           <option value="" disabled>Select absence type</option>
           <option value="V">Vacation</option>
-          <option value="P">Public Holiday</option>
           <option value="T">Training</option>
           <option value="M">Offsite Meeting</option>
           <option value="S">Sickness</option>
