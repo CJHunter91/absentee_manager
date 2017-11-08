@@ -49,7 +49,7 @@ class MonthView extends Component{
 					{day.map((absence, index)=>{
 						if(absence.title){
 							return(
-								<li key={index} onClick={()=>{this.props.absenceClick({
+								<li className="pholiday" key={index} onClick={()=>{this.props.absenceClick({
 							userid:1,
 							date:absence.date,
 							unit:absence.unit,
@@ -59,14 +59,20 @@ class MonthView extends Component{
 								</li>
 								)
 						}
-						else{
+						else if(absence.userid === this.props.userID){
 							return(
-								<li key={index} onClick={()=>{this.props.absenceClick({
+								<li className="user" key={index} onClick={()=>{this.props.absenceClick({
 							userid:absence.userid,
 							date:absence.date,
 							unit:absence.unit,
 							value:absence.value
 						})}}>
+								{absence.name} {absence.unit} {absence.value}
+								</li>
+								)}
+						else{
+							return(
+								<li key={index}>
 								{absence.name} {absence.unit} {absence.value}
 								</li>
 								)}

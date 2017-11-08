@@ -1,7 +1,12 @@
+body{
+	background-color: #DDD5CA;
+}
+
 #absentee-render{
 	display: flex;
 	white-space: nowrap;
 	overflow-y: scroll;
+	width: 100%;
 }
 
 
@@ -10,11 +15,40 @@ ul, li{
 	padding: 0px;
 	margin: 0px;
 }
-
 .day{
 	margin: 8px;
 }
 
+.day li{
+	margin: 5px 0px;
+}
+
+.month h3{
+	text-align: center;
+	padding: 10px;
+	margin: 0px;
+	color:#8D4C98;
+	background-color: #1E252D;
+
+}
+
+.pholiday{
+	font-weight: bold;
+	color: #8D4C98;
+}
+
+.user{
+	color: #8D4C98;
+	font-weight: bold;
+}
+
 .month-days{
 	display: flex;
+}
+
+#new-absence{
+	position: fixed;
+	border-radius: 5px;
+	bottom: 40px;
+	right: 30px
 }

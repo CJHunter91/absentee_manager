@@ -65,11 +65,11 @@ class Agenda extends Component{
 	})
 		
 		
-		return this.sortAbsenteeDates(filteredDates)
+		return filteredDates
 	}
 
 	holidaysAndAbsentees(date){
-		return this.getAbsenteeDates(date).concat(this.getPublicHolidays(date))
+		return this.sortAbsenteeDates(this.getAbsenteeDates(date).concat(this.getPublicHolidays(date)))
 	}
 
 	sortAbsenteeDates(dates){
@@ -219,7 +219,8 @@ submitAbsenceData(e){
 				<section key={i} className="month">
 				<h3>{this.getMonthYearFormat(date)}</h3>
 				<article className="month-days">
-				<DateView absenceClick={this.clickAbsenceData} getAbsenteeDates={this.holidaysAndAbsentees} 
+				<DateView absenceClick={this.clickAbsenceData} 
+				getAbsenteeDates={this.holidaysAndAbsentees} 
 				date={date}
 				userID={this.state.absenceData.userid}
 				/>
@@ -242,9 +243,10 @@ submitAbsenceData(e){
 	render(){
 		return(
 			<section id="agenda">
+			<button id="prev-month" className="prev button" onClick={this.updateMonth}>Prev Months</button>
 			<button id="prev-year" className="prev button" onClick={this.updateYear}>Prev Year</button>
 			<button id="next-year" className="next button" onClick={this.updateYear}>Next Year</button>
-			<button id="prev-year" className="prev button" onClick={this.updateMonth}>Prev Months</button>
+			<button id="next-month" className="next button" onClick={this.updateMonth}>Next Months</button>
 			{this.renderThreeMonths()}
 			<UserInput isOpen={this.state.isModalOpen} 
 			closeModal={this.closeModal}
@@ -253,7 +255,6 @@ submitAbsenceData(e){
 			submitData={this.submitAbsenceData}
 			clash={this.state.clash}
 			/>
-			<button id="next-year" className="next button" onClick={this.updateMonth}>Next Months</button>
 			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
 			</section>
 			)
