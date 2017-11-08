@@ -30,6 +30,7 @@ class Agenda extends Component{
 		this.updateMonth = this.updateMonth.bind(this);
 		this.submitAbsenceData = this.submitAbsenceData.bind(this);
 		this.clickAbsenceData = this.clickAbsenceData.bind(this);
+		this.removeAbsenceData = this.removeAbsenceData.bind(this);
 	}
 
 	componentDidMount(){
@@ -176,11 +177,13 @@ submitAbsenceData(e){
 		this.closeModal();
 	}
 
-	removeAbsenceData(data){
+	removeAbsenceData(data = this.state.data){
+		console.log(data)
 		data.splice(this.findAbsenceIndex(data),1);
 	}
 
 	findAbsenceIndex(data, absenceData = this.state.absenceData){
+		//db access
 		var absenceIndex = false;
 		var userAbsence = data.find((absence, index)=>{
 			if(
@@ -215,7 +218,7 @@ submitAbsenceData(e){
 		for (var i = 0; i < this.state.monthsToRender; i++) {
 			monthArray.push(
 				<section key={i} className="month">
-				<h3 class="month-title">{this.getMonthYearFormat(date)}</h3>
+				<h3 className="month-title">{this.getMonthYearFormat(date)}</h3>
 				<article className="month-days">
 				<DateView absenceClick={this.clickAbsenceData} 
 				getAbsenteeDates={this.holidaysAndAbsentees} 
@@ -232,6 +235,7 @@ submitAbsenceData(e){
 
 	openModal() {
 		this.setState({ isModalOpen: true })
+		this.getCloseDates(this.state.absenceData)
 	}
 
 	closeModal() {
@@ -241,6 +245,7 @@ submitAbsenceData(e){
 	render(){
 		return(
 			<section id="agenda">
+
 			<nav id="fixed-nav">
 			<div id="view-div">
 			<button id="show-month" className="button" 
@@ -254,14 +259,18 @@ submitAbsenceData(e){
 			<button id="new-absence" className="button" onClick={this.openModal}>Add Absence</button>
 			</div>
 			</nav>
+
 			{this.renderMonths()}
+
 			<UserInput isOpen={this.state.isModalOpen} 
 			closeModal={this.closeModal}
 			data={this.state.absenceData}
 			updateAbscenseData={this.updateAbscenseData}
 			submitData={this.submitAbsenceData}
 			clash={this.state.clash}
+			remove={this.removeAbsenceData}
 			/>
+
 			<nav id="fixed-absence">
 			<div id="navigate-div">
 			<button id="prev-month" className="prev button" onClick={this.updateMonth}>Prev</button>
@@ -272,6 +281,7 @@ submitAbsenceData(e){
 			</button>
 			<button id="next-month" className="next button" onClick={this.updateMonth}>Next</button>
 			</div>
+
 			<ul>
 			<li>V: Vacation</li>
 			<li>T: Training</li>

@@ -38,6 +38,7 @@ render(){
         </select>
         <input className="button" type="submit" value="Add Absence"/>
       </form>
+      <button className="button"onClick={()=>{this.props.remove();this.props.closeModal();}}>Remove</button>
       <div className="alert">
         {this.props.clash}
       </div>
