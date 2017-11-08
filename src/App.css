@@ -1,6 +1,6 @@
 body{
 	background-color: #DDD5CA;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 
 h4{
@@ -64,21 +64,38 @@ ul, li{
 #fixed-absence{
 	position: fixed;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	bottom: 0px;
-	height: 40px;
+	height: 60px;
 	width: 100%;
 	background-color: #1E252D;
+	color:#8D4C98;
+}
+
+#fixed-absence ul{
+	display: flex;
+	margin: 0 auto;
+}
+
+#fixed-absence li{
+	margin: 0px 5px;
+	font-size: 1.5vh;
 }
 
 #fixed-nav{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 	position: fixed;
 	top: 0px;
-	height: 40px;
+	height: 60px;
 	width: 100%;
 	background-color: #1E252D;
+}
+
+.prev,.next{
+	font-size: 2vh;
 }
 
 #fixed-nav button{
@@ -91,24 +108,36 @@ ul, li{
 }
 
 .button{
-	margin: 5px;
 	background-color: #1E252D;
 	color:#8D4C98;
 	border: none;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 form{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	width: 40%;
+	width: 70%;
 	margin: 0 auto;
+}
+
+#close{
+	float: right;
+	color:#8D4C98;
+	font-size: xx-large;
 }
 #user-input{
 	align-content: center;
+	text-align: center;
 }
 
+#user-input h4{
+	margin-top: 50px;
+}
+
+
 input, select{
-	margin-top: 5px; 
+	margin-top: 15px; 
 }

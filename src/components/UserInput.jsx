@@ -12,13 +12,13 @@ render(){
    position: 'fixed',
    top: '50%',
    left: '50%',
-   height: '80%',
-   width: '80%',
+   height: '40%',
+   width: '60%',
    transform: 'translate(-50%, -50%)',
    zIndex: '9999',
    background: '#1E252D',
    borderRadius: '10px',
-   border: 'solid white 2px'
+   border: 'solid 2px'
  }
 
  if (this.props.style) {

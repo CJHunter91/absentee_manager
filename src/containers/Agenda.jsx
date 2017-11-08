@@ -19,7 +19,8 @@ class Agenda extends Component{
 				unit:'AM',
 				value:''
 			},
-			clash:""
+			clash:"",
+			monthsToRender:12
 		};
 		this.holidaysAndAbsentees = this.holidaysAndAbsentees.bind(this);
 		this.updateAbscenseData = this.updateAbscenseData.bind(this);
@@ -207,15 +208,15 @@ submitAbsenceData(e){
 
 	updateMonth(e){
 		var date = moment(this.state.currentDate);
-		var modifier = 3;
+		var modifier = this.state.monthsToRender;
 		if(e.target.classList[0] === "prev"){modifier *= -1}
 			date.add(modifier,'M')
 		this.setState({currentDate: date})
 	}
 
-	renderThreeMonths(date=this.state.currentDate){
+	renderMonths(date=this.state.currentDate){
 		var monthArray = []
-		for (var i = 0; i < 3; i++) {
+		for (var i = 0; i < this.state.monthsToRender; i++) {
 			monthArray.push(
 				<section key={i} className="month">
 				<h3>{this.getMonthYearFormat(date)}</h3>
@@ -245,12 +246,20 @@ submitAbsenceData(e){
 		return(
 			<section id="agenda">
 			<nav id="fixed-nav">
-			<button id="prev-month" className="prev button" onClick={this.updateMonth}>Prev Months</button>
-			<button id="prev-year" className="prev button" onClick={this.updateYear}>Prev Year</button>
-			<button id="next-year" className="next button" onClick={this.updateYear}>Next Year</button>
-			<button id="next-month" className="next button" onClick={this.updateMonth}>Next Months</button>
+			<nav id="view-nav">
+			<button id="show-month" className="button" 
+			onClick={()=>{this.setState({monthsToRender:1})}}>Monthly</button>
+			<button id="show-month" className="button"
+			onClick={()=>{this.setState({monthsToRender:3})}}>Quarterly</button>
+			<button id="show-month" className="button"
+			onClick={()=>{this.setState({monthsToRender:12})}}>Yearly</button>
 			</nav>
-			{this.renderThreeMonths()}
+			<nav id="navigate-nav">
+			<button id="prev-month" className="prev button" onClick={this.updateMonth}>{"<<"}</button>
+			<button id="next-month" className="next button" onClick={this.updateMonth}>{">>"}</button>
+			</nav>
+			</nav>
+			{this.renderMonths()}
 			<UserInput isOpen={this.state.isModalOpen} 
 			closeModal={this.closeModal}
 			data={this.state.absenceData}
@@ -260,6 +269,10 @@ submitAbsenceData(e){
 			/>
 			<nav id="fixed-absence">
 			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
+			<ul>
+			<li>V: Vaction</li>
+			<li>T: Training</li>
+			</ul>
 			</nav>
 			</section>
 			)
