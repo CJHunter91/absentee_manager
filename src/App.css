@@ -7,12 +7,15 @@ h4{
 	color: #8D4C98;
 }
 
-#absentee-render{
+.absentee-render{
 	display: flex;
 	white-space: nowrap;
 	overflow-y: scroll;
 	width: 100%;
-	margin-bottom: 40px
+}
+
+.month:last-of-type{
+	margin-bottom: 60px;
 }
 
 
@@ -105,6 +108,9 @@ ul, li{
 	border: none;
 	font-weight: bold;
 
+}
+#navigate-div{
+	margin: 0 auto;
 }
 
 .button{

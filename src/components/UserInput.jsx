@@ -64,6 +64,8 @@ render(){
           <option value="V">Vacation</option>
           <option value="P">Public Holiday</option>
           <option value="T">Training</option>
+          <option value="M">Offsite Meeting</option>
+          <option value="S">Sickness</option>
         </select>
         <input className="button" type="submit" value="Add Absence"/>
       </form>

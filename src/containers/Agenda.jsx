@@ -26,7 +26,7 @@ class Agenda extends Component{
 		this.updateAbscenseData = this.updateAbscenseData.bind(this);
 		this.closeModal = this.closeModal.bind(this);
 		this.openModal = this.openModal.bind(this);
-		this.updateYear = this.updateYear.bind(this);
+		this.resetMonth = this.resetMonth.bind(this);
 		this.updateMonth = this.updateMonth.bind(this);
 		this.submitAbsenceData = this.submitAbsenceData.bind(this);
 		this.clickAbsenceData = this.clickAbsenceData.bind(this);
@@ -198,12 +198,8 @@ submitAbsenceData(e){
 
 
 
-	updateYear(e){
-		var date = moment(this.state.currentDate);
-		var modifier = 1;
-		if(e.target.classList[0]  === "prev"){modifier *= -1}
-			date.add(modifier,'Y')
-		this.setState({currentDate: date})
+	resetMonth(){
+		this.setState({currentDate: moment()})
 	}
 
 	updateMonth(e){
@@ -246,18 +242,17 @@ submitAbsenceData(e){
 		return(
 			<section id="agenda">
 			<nav id="fixed-nav">
-			<nav id="view-nav">
+			<div id="view-div">
 			<button id="show-month" className="button" 
 			onClick={()=>{this.setState({monthsToRender:1})}}>Monthly</button>
 			<button id="show-month" className="button"
 			onClick={()=>{this.setState({monthsToRender:3})}}>Quarterly</button>
 			<button id="show-month" className="button"
 			onClick={()=>{this.setState({monthsToRender:12})}}>Yearly</button>
-			</nav>
-			<nav id="navigate-nav">
-			<button id="prev-month" className="prev button" onClick={this.updateMonth}>{"<<"}</button>
-			<button id="next-month" className="next button" onClick={this.updateMonth}>{">>"}</button>
-			</nav>
+			</div>
+			<div>
+			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
+			</div>
 			</nav>
 			{this.renderMonths()}
 			<UserInput isOpen={this.state.isModalOpen} 
@@ -268,10 +263,20 @@ submitAbsenceData(e){
 			clash={this.state.clash}
 			/>
 			<nav id="fixed-absence">
-			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
+			<div id="navigate-div">
+			<button id="prev-month" className="prev button" onClick={this.updateMonth}>Prev</button>
+			<button id="reset-month" className="reset button" onClick={this.resetMonth}>
+			<svg height="15" width="15">
+  			<circle cx="7" cy="7" r="7" fill="#8D4C98" />
+			</svg>
+			</button>
+			<button id="next-month" className="next button" onClick={this.updateMonth}>Next</button>
+			</div>
 			<ul>
 			<li>V: Vaction</li>
 			<li>T: Training</li>
+			<li>M: Meeting</li>
+			<li>S: Sick</li>
 			</ul>
 			</nav>
 			</section>

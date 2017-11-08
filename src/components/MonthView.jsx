@@ -85,7 +85,7 @@ class MonthView extends Component{
 
 	render(){
 		return(
-			<section id="absentee-render">
+			<section className="absentee-render">
 			{this.absenteeRender()}
 			</section>
 			)
