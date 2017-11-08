@@ -44,40 +44,48 @@ class MonthView extends Component{
 			return dayArrays.map((day, index)=>{
 				return(
 					<section key={index} className="day">
-					<h4>{moment(day[0].date).format('ddd Do')}</h4>
-					<ul>
+					<h3>{moment(day[0].date).format('ddd Do')}</h3>
+					<table>
+					<tbody>
 					{day.map((absence, index)=>{
 						if(absence.title){
 							return(
-								<li className="pholiday" key={index} onClick={()=>{this.props.absenceClick({
+								<tr className="pholiday" key={index} onClick={()=>{this.props.absenceClick({
 							userid:1,
 							date:absence.date,
 							unit:absence.unit,
 							value:"P"
 						})}}>
+								<td>
 								{absence.title}
-								</li>
+								</td>
+								</tr>
 								)
 						}
 						else if(absence.userid === this.props.userID){
 							return(
-								<li className="user" key={index} onClick={()=>{this.props.absenceClick({
+								<tr className="user" key={index} onClick={()=>{this.props.absenceClick({
 							userid:absence.userid,
 							date:absence.date,
 							unit:absence.unit,
 							value:absence.value
 						})}}>
-								{absence.name} {absence.unit} {absence.value}
-								</li>
+								<td>{absence.name}</td>
+								<td>{absence.unit}</td>
+								<td>{absence.value}</td>
+								</tr>
 								)}
 						else{
 							return(
-								<li key={index}>
-								{absence.name} {absence.unit} {absence.value}
-								</li>
+								<tr key={index}>
+								<td>{absence.name}</td>
+								<td>{absence.unit}</td>
+								<td>{absence.value}</td>
+								</tr>
 								)}
 						})}
-					</ul>
+					</tbody>
+					</table>
 					</section>
 					)
 			})}
@@ -86,7 +94,7 @@ class MonthView extends Component{
 	render(){
 		return(
 			<section className="absentee-render">
-			{this.absenteeRender()}
+			{this.absenteeRender() ? this.absenteeRender() : <p>No absences this month</p>}
 			</section>
 			)
 	}

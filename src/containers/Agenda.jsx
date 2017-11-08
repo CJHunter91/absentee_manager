@@ -215,7 +215,7 @@ submitAbsenceData(e){
 		for (var i = 0; i < this.state.monthsToRender; i++) {
 			monthArray.push(
 				<section key={i} className="month">
-				<h3>{this.getMonthYearFormat(date)}</h3>
+				<h3 class="month-title">{this.getMonthYearFormat(date)}</h3>
 				<article className="month-days">
 				<DateView absenceClick={this.clickAbsenceData} 
 				getAbsenteeDates={this.holidaysAndAbsentees} 
@@ -251,7 +251,7 @@ submitAbsenceData(e){
 			onClick={()=>{this.setState({monthsToRender:12})}}>Yearly</button>
 			</div>
 			<div>
-			<button id="new-absence" className="new button" onClick={this.openModal}>Add Absence</button>
+			<button id="new-absence" className="button" onClick={this.openModal}>Add Absence</button>
 			</div>
 			</nav>
 			{this.renderMonths()}
@@ -273,7 +273,7 @@ submitAbsenceData(e){
 			<button id="next-month" className="next button" onClick={this.updateMonth}>Next</button>
 			</div>
 			<ul>
-			<li>V: Vaction</li>
+			<li>V: Vacation</li>
 			<li>T: Training</li>
 			<li>M: Meeting</li>
 			<li>S: Sick</li>

@@ -1,21 +1,15 @@
+
 body{
 	background-color: #DDD5CA;
-	margin-top: 60px;
+	margin-top: 70px;
 }
 
-h4{
+h4, label{
 	color: #8D4C98;
 }
 
-.absentee-render{
-	display: flex;
-	white-space: nowrap;
-	overflow-y: scroll;
-	width: 100%;
-}
-
-.month:last-of-type{
-	margin-bottom: 60px;
+input, select{
+	margin: 15px; 
 }
 
 
@@ -24,21 +18,57 @@ ul, li{
 	padding: 0px;
 	margin: 0px;
 }
+
+circle:hover{
+  fill:white;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto;
+}
+
+table td{
+	padding: 0px 5px 0px 0px;
+}
+
+.alert{
+	color: red;
+}
+
+.absentee-render{
+	display: flex;
+	white-space: nowrap;
+	overflow-y: scroll;
+	width: 100%;
+
+}
 .day{
-	margin: 8px;
+	padding: 8px;
+	border-right: solid 2px #1E252D;
 }
 
 .day li{
 	margin: 5px 0px;
 }
 
-.month h3{
+.month-title{
 	text-align: center;
 	padding: 10px;
 	margin: 0px 0px 0px 0px;
 	color:#8D4C98;
 	background-color: #1E252D;
+}
 
+.month-days{
+	display: flex;
+}
+
+.month:last-of-type{
+	margin-bottom: 60px;
 }
 
 .pholiday{
@@ -51,16 +81,14 @@ ul, li{
 	font-weight: bold;
 }
 
-.month-days{
-	display: flex;
+#user-input h4{
+	margin-top: 50px;
 }
+
 
 #new-absence{
 	margin: 5px 5px 0px 5px;
 	background-color: #1E252D;
-	color:#8D4C98;
-	border: none;
-	border-radius: 5px;
 	font-weight: bold;
 }
 
@@ -92,7 +120,7 @@ ul, li{
 	text-align: center;
 	position: fixed;
 	top: 0px;
-	height: 60px;
+	height: 70px;
 	width: 100%;
 	background-color: #1E252D;
 }
@@ -104,8 +132,6 @@ ul, li{
 #fixed-nav button{
 	margin: 5px 5px 0px 5px;
 	background-color: #1E252D;
-	color:#8D4C98;
-	border: none;
 	font-weight: bold;
 
 }
@@ -116,17 +142,14 @@ ul, li{
 .button{
 	background-color: #1E252D;
 	color:#8D4C98;
-	border: none;
+	border: solid 2px #8D4C98;
+	border-radius: 5px;
 	font-weight: bold;
 	font-size: 20px;
+	margin: 5px 5px;
 }
-
-form{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	width: 70%;
-	margin: 0 auto;
+.button:hover{
+	color: white;
 }
 
 #close{
@@ -140,22 +163,12 @@ form{
 	position: fixed;
    top: 50%;
    left: 50%;
-   height: 40%;
    width: 60%;
    transform: translate(-50%, -50%);
    z-index: 9999;
    background: #1E252D;
    border-radius: 10px;
    border: solid 2px;
-}
-
-#user-input h4{
-	margin-top: 50px;
-}
-
-
-input, select{
-	margin-top: 15px; 
 }
 
 #backdrop{
