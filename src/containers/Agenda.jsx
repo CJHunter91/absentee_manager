@@ -178,8 +178,10 @@ submitAbsenceData(e){
 	}
 
 	removeAbsenceData(data = this.state.data){
-		console.log(data)
-		data.splice(this.findAbsenceIndex(data),1);
+		const absence = this.findAbsenceIndex(data)
+		if(absence){
+			data.splice(this.findAbsenceIndex(data),1);
+		}
 	}
 
 	findAbsenceIndex(data, absenceData = this.state.absenceData){
