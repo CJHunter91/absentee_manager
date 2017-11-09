@@ -9,7 +9,6 @@ class MonthView extends Component{
 		var dayArray = []
 		const dates = this.props.getAbsenteeDates(this.props.date).slice(0)
 		if(dates.length > 0){
-			console.log(dates)
 			var currentDay = dates[0].date
 			var tempArray = []
 			dates.forEach((absentee, index)=>{
@@ -35,7 +34,6 @@ class MonthView extends Component{
 					tempArray.push(absentee);
 				}
 			})
-			console.log(dayArray)
 			return dayArray
 		}
 	}
@@ -77,7 +75,6 @@ class MonthView extends Component{
 
 	absenteeRender(){
 		const dayArrays = this.splitDays()
-		console.log(dayArrays)
 		if(dayArrays !== undefined){
 			return dayArrays.map((day, index)=>{
 				return(
@@ -91,8 +88,7 @@ class MonthView extends Component{
 								<tr className="pholiday" key={index} onClick={()=>{this.props.absenceClick({
 							userid:1,
 							date:absence.date,
-							unit:absence.unit,
-							value:"P"
+							unit:"ALL"
 						})}}>
 								<td>
 								{absence.title}

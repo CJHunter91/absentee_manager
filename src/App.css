@@ -37,6 +37,8 @@ table td{
 
 .alert{
 	color: red;
+	font-size: large;
+	margin: 10px
 }
 
 .absentee-render{

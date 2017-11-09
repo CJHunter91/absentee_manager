@@ -174,6 +174,7 @@ updateAbscenseData(e){
 }
 
 clickAbsenceData(params){
+	console.log(params)
 	if(params.userid === this.state.absenceData.userid)
 		{var data = Object.assign({}, this.state.absenceData, params);
 	this.setState({absenceData: data}, this.openModal)}

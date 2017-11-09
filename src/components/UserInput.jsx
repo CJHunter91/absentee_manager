@@ -21,10 +21,9 @@ render(){
         <DayPicker name="date" type="date" 
           selectedDays={new Date (this.props.data.date)} 
           onDayClick={this.props.onDayClick}
-          min={moment().format('YYYY-MM-DD')}
           disabledDays={[{ daysOfWeek: [0, 6]},{before: new Date() }]}
           todayButton="Go to Today"
-          required
+          month={this.props.data.date ? new Date (this.props.data.date) : null}
           />
         <label>Unit</label> 
         <select name="unit" value={this.props.data.unit} onChange={this.props.updateAbscenseData}>
