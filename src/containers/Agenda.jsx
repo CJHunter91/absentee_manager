@@ -57,7 +57,7 @@ class Agenda extends Component{
 	}
 
 	getAbsenteeDates(date){
-		//accesses db
+		console.log("EXAMPLE SERVER UPDATE REQUEST");
 		const filteredDates = this.state.data.filter((absentee) => {
 			if(date.month() === moment(absentee.date).month() &&
 				date.year() === moment(absentee.date).year() &&
@@ -168,12 +168,11 @@ clickAbsenceData(params){
 }
 
 submitAbsenceData(e){
-		//db access
 		e.preventDefault()
 		var data = this.state.data.slice(0);
 		data.splice(this.findAbsenceIndex(data),1);
 		data.push(this.state.absenceData);
-		this.setState({data: data})
+		this.setState({data: data}, ()=>{console.log("EXAMPLE SERVER UPDATE REQUEST");})
 		this.closeModal();
 	}
 
@@ -185,7 +184,7 @@ submitAbsenceData(e){
 	}
 
 	findAbsenceIndex(data, absenceData = this.state.absenceData){
-		//db access
+		console.log("EXAMPLE SERVER UPDATE REQUEST");
 		var absenceIndex = false;
 		var userAbsence = data.find((absence, index)=>{
 			if(

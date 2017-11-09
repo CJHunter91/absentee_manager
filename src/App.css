@@ -153,7 +153,7 @@ table td{
 	background-color: #8D4C98 !important;
 	color: #1E252D;
 }
-.button:hover{
+.button:hover, #new-absence:hover{
 	color: white;
 }
 
