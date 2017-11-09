@@ -30,6 +30,7 @@ render(){
         <select name="unit" value={this.props.data.unit} onChange={this.props.updateAbscenseData}>
           <option value="AM">AM</option>
           <option value="PM">PM</option>
+          <option value="ALL">All</option>
         </select>
         <label>Reason</label>
         <select name="value" value={this.props.data.value} onChange={this.props.updateAbscenseData} required>

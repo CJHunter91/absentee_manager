@@ -9,6 +9,7 @@ class MonthView extends Component{
 		var dayArray = []
 		const dates = this.props.getAbsenteeDates(this.props.date).slice(0)
 		if(dates.length > 0){
+			console.log(dates)
 			var currentDay = dates[0].date
 			var tempArray = []
 			dates.forEach((absentee, index)=>{
@@ -21,25 +22,62 @@ class MonthView extends Component{
 				}
 				else if(currentDay !== absentee.date){
 					currentDay = absentee.date;
-					dayArray.push(tempArray)
+					dayArray.push(this.combineUnits(tempArray))
 					tempArray = [];
 					tempArray.push(absentee);
 				}
 
 				else if(dates.length === index+1){
 					tempArray.push(absentee);
-					dayArray.push(tempArray)
+					dayArray.push(this.combineUnits(tempArray))
 				}
 				else{
 					tempArray.push(absentee);
 				}
 			})
+			console.log(dayArray)
 			return dayArray
 		}
 	}
 
+	combineUnits(day){
+		if(day.length <= 1){
+			return day
+		}
+		const sorted = day.sort(function(a,b){
+			if(a.name && b.name){
+			return a.name.localeCompare(b.name);
+		}
+		})
+		var currentAbsence = null
+		var newArray = [];
+		for(let absentee of day){
+			if(absentee.title){
+				newArray.unshift(absentee);	
+			}
+			else if(currentAbsence === null){
+				currentAbsence = absentee
+			}
+			else if(absentee.name !== currentAbsence.name){
+				newArray.push(currentAbsence);
+				newArray.push(absentee);
+				currentAbsence = null;
+			}
+			else if(absentee.name === currentAbsence.name
+				&& absentee.value === currentAbsence.value){
+				const newAbsence = Object.assign({},absentee)
+				newAbsence.unit = "ALL"
+				newArray.push(newAbsence);
+				currentAbsence = null;
+			}
+
+		}
+		return newArray;
+	}
+
 	absenteeRender(){
 		const dayArrays = this.splitDays()
+		console.log(dayArrays)
 		if(dayArrays !== undefined){
 			return dayArrays.map((day, index)=>{
 				return(
