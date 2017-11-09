@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import moment from 'moment';
+import DayPicker from 'react-day-picker';
+import 'react-day-picker/lib/style.css';
 
 class UserInput extends Component{
 
@@ -16,10 +18,11 @@ render(){
       <h4>Absence Request</h4>
       <form onSubmit={this.props.submitData}>
         <label>Date</label>
-        <input name="date" type="date" 
-          value={this.props.data.date} 
-          onChange={this.props.updateAbscenseData}
+        <DayPicker name="date" type="date" 
+          selectedDays={new Date (this.props.data.date)} 
+          onDayClick={this.props.onDayClick}
           min={moment().format('YYYY-MM-DD')}
+          disabledDays={[{ daysOfWeek: [0, 6]},{before: new Date() }]}
           required
           />
         <label>Unit</label> 

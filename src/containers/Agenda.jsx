@@ -31,6 +31,7 @@ class Agenda extends Component{
 		this.submitAbsenceData = this.submitAbsenceData.bind(this);
 		this.clickAbsenceData = this.clickAbsenceData.bind(this);
 		this.removeAbsenceData = this.removeAbsenceData.bind(this);
+		this.onDayClick = this.onDayClick.bind(this);
 	}
 
 	componentDidMount(){
@@ -153,6 +154,17 @@ sortTitles(array){
 	return newArray.concat(array)
 }
 
+onDayClick(date, {disabled}){
+	if(disabled){
+		return;
+	}
+	var absenceData = Object.assign({}, this.state.absenceData);
+	absenceData.date = moment(date)
+	this.setState({absenceData: absenceData}, ()=>{
+		this.getCloseDates(absenceData)
+	});
+}
+
 updateAbscenseData(e){
 	var absenceData = Object.assign({}, this.state.absenceData);
 	absenceData[e.target.name] = e.target.value;
@@ -267,6 +279,7 @@ submitAbsenceData(e){
 			closeModal={this.closeModal}
 			data={this.state.absenceData}
 			updateAbscenseData={this.updateAbscenseData}
+			onDayClick={this.onDayClick}
 			submitData={this.submitAbsenceData}
 			clash={this.state.clash}
 			remove={this.removeAbsenceData}
