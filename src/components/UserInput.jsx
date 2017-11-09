@@ -23,6 +23,7 @@ render(){
           onDayClick={this.props.onDayClick}
           min={moment().format('YYYY-MM-DD')}
           disabledDays={[{ daysOfWeek: [0, 6]},{before: new Date() }]}
+          todayButton="Go to Today"
           required
           />
         <label>Unit</label> 

@@ -185,3 +185,11 @@ table td{
    z-index: 9998;
    background: rgba(0, 0, 0, 0.3);
 }
+
+.DayPicker{
+	color: #8D4C98;
+}
+
+.DayPicker-Day--disabled{
+	background-color: grey;
+}
