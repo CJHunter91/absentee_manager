@@ -170,7 +170,7 @@ table td{
 	position: fixed;
    top: 50%;
    left: 50%;
-   width: 60%;
+   width: 70%;
    transform: translate(-50%, -50%);
    z-index: 9999;
    background: #1E252D;
